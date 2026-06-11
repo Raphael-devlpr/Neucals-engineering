@@ -1,0 +1,20 @@
+# cPanel specific
+.cpanel.yml
+error_log
+.htaccess.bak
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
