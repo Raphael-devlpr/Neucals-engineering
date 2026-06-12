@@ -1,5 +1,4 @@
 # cPanel specific
-.cpanel.yml
 error_log
 .htaccess.bak
 
