@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://neucalsengineering.co.za/sitemap.xml
