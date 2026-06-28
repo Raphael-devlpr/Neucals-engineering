@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Force HTTPS and non-www canonical host.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.neucalsengineering\.co\.za$ [NC]
+RewriteRule ^ https://neucalsengineering.co.za%{REQUEST_URI} [L,R=301]
+
+# Serve index.html for requests to root only.
+DirectoryIndex index.html
